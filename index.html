@@ -5,24 +5,27 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Pig Latin</title>
+    <title>Bases</title>
   </head>
   <body>
     <div class="container">
-      <h1>Pig Latin Translator</h1>
-
-      <form id="pig-latin">
+      <h1>Convert a base-n number to base-10</h1>
+      <h3>Enter the number, and then the base:</h3>
+      <form id="base">
         <div class="form-group">
-          <label for="english">Enter an English word, or phrase, to see the Pig Latin translation:</label>
-          <input id="english" type="text">
+          <label for="number">Number to be evaluated:</label>
+          <input id="number" type="text">
         </div>
-
-        <button type="submit" class="btn">Translate</button>
+        <div class="form-group">
+          <label for="base">Base to be evaluated by:</label>
+          <input id="base" type="text">
+        </div>
+        <button type="submit" class="btn">Convert</button>
       </form>
 
       <div id="result">
-        <h2>"<span id="output-english"></span>" in Pig Latin is:</h2>
-        <h2 id="output-pig"></h2>
+        <h2><span id="output-original"></span> in decimal is:</h2>
+        <h2 id="output-decimal"></h2>
       </div>
     </div>
   </body>
