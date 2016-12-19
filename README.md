@@ -1,42 +1,31 @@
-# _pig-latin_
+# _bases_
 
-#### _Simple web page to turn English into Pig Latin, 12.19.2016_
+#### _Simple web page to turn base-n numbers into base-10, 12.19.2016_
 
 #### By _**Brent Perry**_
 
 ## Description
 
-_This is a very simple website used to translate English into Pig Latin._
+_This is a very simple website used to convert numbers to base-10._
 
 # Specs
 
-* _Do nothing to non-alphabetical character._
-  * _Input Example: 3_
+* _Return number unconverted._
+  * _Input Example: 11 -- 2_
+  * _Output Example: 11_
+* _Return binary number converted to base-10._
+  * _Input Example: 11 -- 2_
   * _Output Example: 3_
-* _A single vowel word._
-  * _Input Example: i_
-  * _Output Example: iay_
-* _Word that begins with a consonant._
-  * _Input Example: cat_
-  * _Output Example: atcay_
-* _Word that begins with a vowel._
-  * _Input Example: attic_
-  * _Output Example: atticay_
-* _Word that begins with 2 consonants._
-  * _Input Example: chair_
-  * _Output Example: airchay_
-* _Word that begins with 3 consonants._
-  * _Input Example: stretch_
-  * _Output Example: etchstray _
-* _Word with 'u' after first consonant._
-  * _Input Example: quiet_
-  * _Output Example: ietquay _
-* _Word with 'u' that follows more than one consonant._
-  * _Input Example: squeal_
-  * _Output Example: ealsquay_
-* _A multi-word phrase._
-  * _Input Example: quiet squeal_
-  * _Output Example: ietquay ealsquay_ 
+* _Return ternary number converted to base-10._
+  * _Input Example: 12 -- 3_
+  * _Output Example: 5_
+* _Return any number up to base-8._
+  * _Input Example: 134 -- 4_
+  * _Output Example: 32 -- 14_
+* _Return hexadecimal number converted to base-10._
+  * _Input Example: f -- 16_
+  * _Output Example: 15_
+
 
 ## Setup/Installation Requirements
 
