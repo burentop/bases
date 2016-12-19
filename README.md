@@ -21,7 +21,7 @@ _This is a very simple website used to convert numbers to base-10._
   * _Output Example: 5_
 * _Return any number up to base-8._
   * _Input Example: 134 -- 4_
-  * _Output Example: 32 -- 14_
+  * _Output Example: 32_
 * _Return hexadecimal number converted to base-10._
   * _Input Example: f -- 16_
   * _Output Example: 15_
