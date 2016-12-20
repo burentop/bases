@@ -1,9 +1,11 @@
+var values = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'];
+
 var convertNumber = function(number, base) {
   var output = 0;
   var length = number.length;
   var exp = length -1;
   for (var index = 0; index < length; index += 1) {
-    var digit = parseInt(number[index]);
+    var digit = values.indexOf(number[index]);
     output += (digit * (Math.pow(base, exp)));
     exp -= 1;
   }
